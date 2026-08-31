@@ -3,315 +3,173 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>설해원 가족여행 일정 후보</title>
-<meta name="description" content="설해원 골든비치 가족여행 날짜 후보. 부모님 일정과 골프 잔여타임 기준으로 정리.">
-<meta property="og:title" content="설해원 가족여행 일정 후보">
-<meta property="og:description" content="부모님 일정과 골프 잔여타임 기준 날짜 후보 4가지">
+<title>설해원 가족여행 날짜 후보</title>
+<meta property="og:title" content="설해원 가족여행 날짜 후보">
+<meta property="og:description" content="부모님 일정과 골프 잔여타임 기준 날짜 4개">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;700&family=Cormorant+Garamond:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;500;700&family=Cormorant+Garamond:wght@400;600&display=swap');
   *{margin:0;padding:0;box-sizing:border-box;}
-  :root{
-    --green:#10362a; --green2:#1d4d3a; --gold:#b89255; --gold-l:#dcc59b;
-    --cream:#f6f1e7; --paper:#fbf8f1; --ink:#2a2a24; --muted:#6c6657;
-    --line:#e7ddc8; --red:#a8402f; --blue:#2f5d7c;
-  }
-  body{font-family:'Noto Serif KR',serif;color:var(--ink);background:#0c2018;line-height:1.75;-webkit-text-size-adjust:100%;}
-  .page{max-width:820px;margin:0 auto;background:var(--paper);}
-  .eng{font-family:'Cormorant Garamond',serif;}
+  :root{--green:#10362a;--green2:#1d4d3a;--gold:#b89255;--gold-l:#dcc59b;--cream:#f6f1e7;--paper:#fbf8f1;--ink:#2a2a24;--muted:#6c6657;--line:#e7ddc8;--red:#a8402f;}
+  body{font-family:'Noto Serif KR',serif;color:var(--ink);background:#0c2018;line-height:1.7;}
+  .page{max-width:760px;margin:0 auto;background:var(--paper);}
+  header{background:linear-gradient(160deg,#10362a,#08211a);color:#fff;padding:36px 20px 30px;}
+  header .k{font-family:'Cormorant Garamond',serif;letter-spacing:.3em;text-transform:uppercase;font-size:10px;color:var(--gold-l);}
+  header h1{font-size:27px;font-weight:700;margin-top:8px;letter-spacing:-.5px;}
+  header p{margin-top:10px;font-size:14px;font-weight:300;color:#ded8ca;}
+  section{padding:26px 20px;border-bottom:1px solid var(--line);}
+  h2{font-size:19px;color:var(--green);font-weight:700;margin-bottom:12px;}
+  p{font-size:14px;font-weight:300;}
 
-  header{background:linear-gradient(160deg,#10362a,#08211a);color:#fff;padding:44px 22px 36px;}
-  header .kick{font-family:'Cormorant Garamond',serif;letter-spacing:.34em;text-transform:uppercase;font-size:11px;color:var(--gold-l);}
-  header h1{font-size:31px;font-weight:700;line-height:1.25;margin-top:10px;letter-spacing:-.5px;}
-  header h1 span{display:block;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:15px;letter-spacing:.24em;color:var(--gold-l);margin-top:9px;text-transform:uppercase;}
-  header p{margin-top:16px;font-size:14px;font-weight:300;color:#e2dcce;}
-  header .who{margin-top:18px;display:flex;flex-wrap:wrap;gap:7px;}
-  header .who b{font-weight:400;font-size:12px;background:rgba(255,255,255,.09);border:1px solid rgba(220,197,155,.35);color:#f0ead9;padding:4px 11px;border-radius:20px;}
-
-  section{padding:34px 22px;border-bottom:1px solid var(--line);}
-  .lab{font-family:'Cormorant Garamond',serif;letter-spacing:.3em;text-transform:uppercase;font-size:11px;color:var(--gold);margin-bottom:6px;}
-  h2{font-size:22px;color:var(--green);font-weight:700;letter-spacing:-.3px;margin-bottom:4px;}
-  .intro{font-size:14px;color:#4a463c;font-weight:300;margin-bottom:20px;}
-  h3{font-size:16px;color:var(--green2);font-weight:700;margin:22px 0 8px;}
-  p{font-weight:300;font-size:14.5px;}
-  ul{margin:8px 0 0 18px;font-size:14px;font-weight:300;}
-  li{margin-bottom:5px;}
-  b.hl{color:var(--green);font-weight:700;}
-  a{color:var(--green2);}
-
-  .alert{background:#fff6f2;border:1px solid #e8c9be;border-left:3px solid var(--red);padding:15px 16px;border-radius:4px;margin-bottom:18px;}
-  .alert .t{font-weight:700;color:var(--red);font-size:14.5px;margin-bottom:5px;}
-  .alert p{font-size:13.5px;color:#5a4038;}
-
-  .note{background:#fff;border:1px solid var(--line);border-left:3px solid var(--gold);padding:14px 16px;border-radius:4px;margin-top:16px;}
-  .note p{font-size:13.5px;color:#4a463c;}
-
-  table{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:12px;background:#fff;}
-  th,td{border:1px solid var(--line);padding:9px 8px;text-align:center;font-weight:300;}
-  th{background:var(--green);color:#fff;font-weight:500;font-size:12.5px;}
-  td.name{text-align:left;font-weight:500;color:var(--green2);}
-  .ok{color:#1d6b47;font-weight:700;}
-  .no{color:var(--red);font-weight:700;}
-  .wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
-
-  .opt{background:#fff;border:1px solid var(--line);border-radius:6px;margin-bottom:20px;overflow:hidden;}
+  .opt{background:#fff;border:1px solid var(--line);border-radius:6px;margin-bottom:12px;overflow:hidden;}
   .opt.best{border:2px solid var(--green);}
-  .opt .head{padding:16px 18px;background:var(--cream);border-bottom:1px solid var(--line);}
-  .opt.best .head{background:var(--green);color:#fff;}
-  .opt .head .tag{font-family:'Cormorant Garamond',serif;letter-spacing:.2em;text-transform:uppercase;font-size:11px;color:var(--gold);}
-  .opt.best .head .tag{color:var(--gold-l);}
-  .opt .head h3{margin:2px 0 0;font-size:19px;color:var(--green);}
-  .opt.best .head h3{color:#fff;}
-  .opt .head .sub{font-size:13px;font-weight:300;color:var(--muted);margin-top:3px;}
-  .opt.best .head .sub{color:#dfd8c8;}
-  .opt .body{padding:16px 18px;}
-  .tl{list-style:none;margin:0;padding:0;}
-  .tl li{display:flex;gap:12px;padding:9px 0;border-bottom:1px dashed #e5dcc6;font-size:14px;font-weight:300;align-items:flex-start;}
-  .tl li:last-child{border-bottom:none;}
-  .tl .d{flex:0 0 84px;font-weight:700;color:var(--green2);font-size:13px;}
-  .pros{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px;}
-  .pros div{border-radius:4px;padding:11px 12px;font-size:13px;font-weight:300;}
-  .pros .p{background:#f1f7f2;border:1px solid #cfe3d5;}
-  .pros .c{background:#fdf5ef;border:1px solid #ecd8c7;}
-  .pros b{display:block;font-size:11.5px;letter-spacing:.1em;margin-bottom:4px;font-weight:700;}
-  .pros .p b{color:#1d6b47;}
-  .pros .c b{color:#a8623b;}
-  @media(max-width:520px){.pros{grid-template-columns:1fr;}}
+  .oh{padding:13px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--cream);border-bottom:1px solid var(--line);}
+  .opt.best .oh{background:var(--green);color:#fff;}
+  .oh .l{font-family:'Cormorant Garamond',serif;letter-spacing:.18em;text-transform:uppercase;font-size:10px;color:var(--gold);}
+  .opt.best .oh .l{color:var(--gold-l);}
+  .oh h3{font-size:17px;color:var(--green);font-weight:700;line-height:1.3;}
+  .opt.best .oh h3{color:#fff;}
+  .oh .g{font-size:11px;white-space:nowrap;background:#fff;border:1px solid var(--line);color:var(--green2);border-radius:20px;padding:3px 10px;font-weight:500;}
+  .ob{padding:12px 16px 14px;}
+  .ob ul{list-style:none;}
+  .ob li{display:flex;gap:10px;font-size:13.5px;font-weight:300;padding:5px 0;border-bottom:1px dashed #ece3ce;}
+  .ob li:last-child{border-bottom:none;}
+  .ob .d{flex:0 0 52px;font-weight:700;color:var(--green2);font-size:12.5px;}
+  .ob .v{margin-top:9px;font-size:12.5px;color:var(--muted);font-weight:300;}
+  .ob .v b{color:var(--green2);}
 
-  .rooms{display:grid;gap:12px;}
-  .room{background:#fff;border:1px solid var(--line);border-radius:5px;padding:15px 16px;}
-  .room h4{font-size:16px;color:var(--green);font-weight:700;}
-  .room .m{font-size:12px;color:var(--gold);font-family:'Cormorant Garamond',serif;letter-spacing:.14em;text-transform:uppercase;margin-bottom:7px;}
-  .room p{font-size:13.5px;color:#4a463c;}
-  .room .spec{margin-top:8px;font-size:12.5px;color:var(--muted);border-top:1px dashed #e5dcc6;padding-top:8px;}
+  table{width:100%;border-collapse:collapse;font-size:13px;background:#fff;}
+  th,td{border:1px solid var(--line);padding:7px 6px;text-align:center;font-weight:300;}
+  th{background:var(--green);color:#fff;font-weight:500;font-size:12px;}
+  td.n{text-align:left;font-weight:500;color:var(--green2);}
+  .no{color:var(--red);font-weight:700;} .ok{color:#1d6b47;font-weight:700;}
+  .wrap{overflow-x:auto;}
+
+  .warn{background:#fff6f2;border-left:3px solid var(--red);border:1px solid #e8c9be;padding:12px 14px;border-radius:4px;margin-top:14px;}
+  .warn b{color:var(--red);font-size:13.5px;}
+  .warn p{font-size:13px;color:#5a4038;margin-top:3px;}
+  .note{background:#fff;border:1px solid var(--line);border-left:3px solid var(--gold);padding:12px 14px;border-radius:4px;margin-top:14px;}
+  .note p{font-size:13px;color:#4a463c;}
+  ul.plain{margin-left:17px;font-size:13.5px;font-weight:300;}
+  ul.plain li{margin-bottom:4px;}
 
   .ask{background:var(--green);color:#fff;}
   .ask h2{color:#fff;}
-  .ask .lab{color:var(--gold-l);}
-  .ask .q{background:rgba(255,255,255,.07);border:1px solid rgba(220,197,155,.3);border-radius:5px;padding:15px 16px;margin-bottom:11px;}
-  .ask .q b{display:block;font-size:15px;color:var(--gold-l);margin-bottom:5px;}
-  .ask .q p{font-size:13.5px;color:#e6e0d2;}
+  .ask .q{border-top:1px solid rgba(220,197,155,.3);padding:11px 0;}
+  .ask .q:first-of-type{border-top:none;}
+  .ask .q b{color:var(--gold-l);font-size:14.5px;}
+  .ask .q p{color:#e6e0d2;font-size:13px;margin-top:2px;}
 
-  footer{background:#08211a;color:#9aa79f;padding:26px 22px 34px;font-size:12px;font-weight:300;}
-  footer a{color:var(--gold-l);text-decoration:none;border-bottom:1px solid rgba(220,197,155,.4);}
-  footer .tel{display:inline-block;margin-top:10px;background:var(--gold);color:#0c2018;font-weight:700;padding:9px 18px;border-radius:30px;text-decoration:none;border:none;font-size:13px;}
+  footer{background:#08211a;color:#9aa79f;padding:22px 20px 30px;font-size:12px;font-weight:300;}
+  footer a{color:var(--gold-l);}
+  footer .tel{display:inline-block;margin-top:10px;background:var(--gold);color:#0c2018;font-weight:700;padding:8px 16px;border-radius:30px;text-decoration:none;font-size:13px;}
 </style>
 </head>
 <body>
 <div class="page">
 
 <header>
-  <div class="kick">Seolhaeone Golden Beach, Yangyang</div>
-  <h1>설해원 가족여행 날짜 후보<span>October 2026</span></h1>
-  <p>부모님 일정, 설해원 예약 규정, 실제 골프 잔여타임을 다 맞춰보고 남은 날짜만 추렸어. 아래 4개 중에 고르면 돼.</p>
-  <div class="who"><b>아빠</b><b>엄마</b><b>화수</b><b>수현</b><b>은서</b></div>
+  <div class="k">Seolhaeone, Yangyang</div>
+  <h1>설해원 날짜 후보 4개</h1>
+  <p>부모님 일정(10/7 도착, 10/16~28 발칸, 11/13 아빠 출발)이랑 실제 골프 잔여타임 맞춰보고 남은 날짜만 추렸어. 하나만 골라줘.</p>
 </header>
 
 <section>
-  <div class="lab">Constraints</div>
-  <h2>먼저, 피해야 하는 날</h2>
-  <p class="intro">엄마가 보내준 일정 그대로 반영했어.</p>
-  <div class="wrap">
-  <table>
-    <tr><th>일정</th><th>기간</th><th>영향</th></tr>
-    <tr><td class="name">부모님 서울 도착</td><td>10월 7일</td><td>이 전에는 불가</td></tr>
-    <tr><td class="name">발칸반도 여행</td><td>10월 16일 ~ 28일</td><td>이 기간 통째로 불가</td></tr>
-    <tr><td class="name">아빠 자카르타 출발</td><td>11월 13일</td><td>이후 아빠 없음</td></tr>
-    <tr><td class="name">엄마 자카르타 출발</td><td>11월 27일</td><td>이후 엄마 없음</td></tr>
-  </table>
-  </div>
-  <div class="note"><p>다섯 명이 다 모일 수 있는 구간은 <b class="hl">10월 8일 ~ 15일</b>과 <b class="hl">10월 29일 ~ 11월 12일</b> 두 개뿐이야.</p></div>
-</section>
-
-<section>
-  <div class="lab">Reality check</div>
-  <h2>10월 주말은 이미 다 찼어</h2>
-  <p class="intro">설해원 골프 예약 현황을 직접 확인한 결과 (2026년 8월 31일 오전 기준).</p>
-  <div class="wrap">
-  <table>
-    <tr><th>날짜</th><th>요일</th><th>골프 잔여</th><th>티오프</th></tr>
-    <tr><td class="name">10월 8일</td><td>목</td><td class="ok">14팀</td><td>06:24 ~ 06:59</td></tr>
-    <tr><td class="name">10월 9일</td><td>금 (한글날)</td><td class="no">마감</td><td>-</td></tr>
-    <tr><td class="name">10월 10일</td><td>토</td><td class="no">마감</td><td>-</td></tr>
-    <tr><td class="name">10월 11일</td><td>일</td><td class="no">마감</td><td>-</td></tr>
-    <tr><td class="name">10월 12일</td><td>월</td><td class="ok">17팀</td><td>06:31 ~ 06:59</td></tr>
-    <tr><td class="name">10월 13일</td><td>화</td><td class="ok">12팀</td><td>06:31 ~ 07:41</td></tr>
-    <tr><td class="name">10월 14일</td><td>수</td><td class="ok">6팀</td><td>06:31 ~ 06:45</td></tr>
-    <tr><td class="name">10월 15일</td><td>목</td><td class="no">마감</td><td>-</td></tr>
-  </table>
-  </div>
-  <div class="alert" style="margin-top:18px">
-    <div class="t">11월 날짜는 아직 예약 자체가 안 열렸어</div>
-    <p>설해원은 객실과 골프 모두 <b>이용일 2개월 전, 매월 1일 오전 9시</b>에 한꺼번에 열려. 그래서 11월 일정은 <b>9월 1일 화요일 오전 9시</b>에 오픈런을 해야 잡을 수 있어. 10월 주말이 지금 전부 마감인 걸 보면 11월 주말도 오픈 직후 몇 분 안에 빠질 가능성이 커.</p>
-  </div>
-  <div class="note"><p>남은 티타임이 전부 새벽 6시 반 근처야. 10월 중순 양양 일출이 6시 20분쯤이라 플레이는 되는데, 라운드 나가는 사람은 5시 반에는 일어나야 해. 골프 안 치는 사람은 그냥 자고 온천 가면 됨.</p></div>
-</section>
-
-<section>
-  <div class="lab">Options</div>
-  <h2>후보 4개</h2>
-  <p class="intro">골프는 실제로 남아있는 날에만 넣었어.</p>
+  <h2>후보</h2>
 
   <div class="opt best">
-    <div class="head">
-      <div class="tag">Option A / recommended</div>
-      <h3>10월 12일(월) ~ 14일(수), 2박</h3>
-      <div class="sub">골프 여유 제일 많음, 온천 하루 통째로 확보</div>
+    <div class="oh">
+      <div><div class="l">A / 추천</div><h3>10/12(월) ~ 14(수) · 2박</h3></div>
+      <div class="g">골프 17팀</div>
     </div>
-    <div class="body">
-      <ul class="tl">
-        <li><span class="d">12일 월</span><span>오전 서울 출발, 점심 양양. 오후 3시 체크인. 온천, 수영장, 저녁은 곧은 레스토랑</span></li>
-        <li><span class="d">13일 화</span><span>골프 팀 06:31 티오프 (남은 팀 12개). 안 치는 사람은 아침 늦게, 온천과 해풍길 산책. 오후에 다 같이 늦은 점심</span></li>
-        <li><span class="d">14일 수</span><span>오전 11시 체크아웃. 원하면 이 날도 골프 가능 (6팀 남음), 아니면 낙산이나 속초 들렀다 귀경</span></li>
+    <div class="ob">
+      <ul>
+        <li><span class="d">12 월</span><span>오후 3시 체크인, 온천과 수영장</span></li>
+        <li><span class="d">13 화</span><span>골프 06:31 티오프, 안 치는 사람은 온천</span></li>
+        <li><span class="d">14 수</span><span>11시 체크아웃 (원하면 이 날도 골프)</span></li>
       </ul>
-      <div class="pros">
-        <div class="p"><b>좋은 점</b>골프 티타임이 가장 넉넉해서 우리 팀 시간대를 고를 수 있음. 평일이라 온천과 수영장이 한산하고 객실 잡기도 제일 쉬움. 부모님 발칸 출발(16일) 전에 여유 있게 끝남.</div>
-        <div class="c"><b>감안할 점</b>수현이랑 은서는 평일 일정. 라운드 나가는 날은 새벽 기상.</div>
-      </div>
+      <div class="v"><b>왜:</b> 골프 자리가 제일 넉넉하고 평일이라 한산. 발칸 출발 전 여유.</div>
     </div>
   </div>
 
   <div class="opt">
-    <div class="head">
-      <div class="tag">Option B</div>
-      <h3>10월 8일(목) ~ 9일(금), 1박</h3>
-      <div class="sub">부모님 도착 바로 다음날, 짧고 굵게</div>
+    <div class="oh">
+      <div><div class="l">B</div><h3>10/8(목) ~ 9(금) · 1박</h3></div>
+      <div class="g">골프 14팀</div>
     </div>
-    <div class="body">
-      <ul class="tl">
-        <li><span class="d">7일 화</span><span>부모님 서울 도착 (여행 시작은 다음날)</span></li>
-        <li><span class="d">8일 목</span><span>새벽 출발해서 골프 06:24 티오프 (14팀 남음), 오후 3시 체크인, 온천과 저녁</span></li>
-        <li><span class="d">9일 금</span><span>한글날. 오전 11시 체크아웃, 속초나 낙산 들렀다 귀경</span></li>
+    <div class="ob">
+      <ul>
+        <li><span class="d">8 목</span><span>골프 06:24, 오후 체크인</span></li>
+        <li><span class="d">9 금</span><span>한글날, 11시 체크아웃</span></li>
       </ul>
-      <div class="pros">
-        <div class="p"><b>좋은 점</b>1박이라 부담 적고 한글날 연휴 앞자락이라 수현이 휴가를 덜 써도 됨. 골프 팀도 넉넉함.</div>
-        <div class="c"><b>감안할 점</b>부모님이 도착한 지 하루 만이라 시차 적응이 안 됐을 수 있음. 골프 치려면 서울에서 새벽 3시대 출발이라 전날 미리 내려가야 현실적임.</div>
-      </div>
+      <div class="v"><b>왜:</b> 짧아서 부담 적고 휴가 하루면 됨. <b>단</b> 부모님 도착 다음날이라 시차.</div>
     </div>
   </div>
 
   <div class="opt">
-    <div class="head">
-      <div class="tag">Option C</div>
-      <h3>10월 13일(화) ~ 15일(목), 2박</h3>
-      <div class="sub">A와 하루씩 밀린 버전</div>
+    <div class="oh">
+      <div><div class="l">C</div><h3>10/13(화) ~ 15(목) · 2박</h3></div>
+      <div class="g">골프 6팀</div>
     </div>
-    <div class="body">
-      <ul class="tl">
-        <li><span class="d">13일 화</span><span>오후 체크인, 온천과 저녁</span></li>
-        <li><span class="d">14일 수</span><span>골프 06:31 티오프 (6팀 남음), 오후 휴식</span></li>
-        <li><span class="d">15일 목</span><span>오전 11시 체크아웃, 귀경</span></li>
+    <div class="ob">
+      <ul>
+        <li><span class="d">13 화</span><span>오후 체크인</span></li>
+        <li><span class="d">14 수</span><span>골프 06:31</span></li>
+        <li><span class="d">15 목</span><span>11시 체크아웃</span></li>
       </ul>
-      <div class="pros">
-        <div class="p"><b>좋은 점</b>주말을 하루 낀 A안보다 사람이 더 적음. 발칸 출발 직전까지 붙여 쓸 수 있음.</div>
-        <div class="c"><b>감안할 점</b>골프 잔여가 6팀뿐이라 지금도 빠지는 중일 수 있고, 15일 체크아웃 다음날이 바로 부모님 여행 준비라 빡빡함.</div>
-      </div>
+      <div class="v"><b>왜:</b> A랑 비슷한데 더 한산. <b>단</b> 골프 6팀뿐이라 곧 마감될 수 있음.</div>
     </div>
   </div>
 
   <div class="opt">
-    <div class="head">
-      <div class="tag">Option D / 도전</div>
-      <h3>10월 30일(금) ~ 11월 1일(일) 또는 11월 6일(금) ~ 8일(일), 2박</h3>
-      <div class="sub">유일한 주말안. 9월 1일 오전 9시 오픈런 필요</div>
+    <div class="oh">
+      <div><div class="l">D / 도전</div><h3>10/30~11/1 또는 11/6~8 · 주말 2박</h3></div>
+      <div class="g">9/1 오픈</div>
     </div>
-    <div class="body">
-      <ul class="tl">
-        <li><span class="d">9월 1일</span><span>화요일 오전 9시 정각, 홈페이지에서 객실과 골프 동시 예약 시도</span></li>
-        <li><span class="d">금요일</span><span>퇴근 후 출발, 오후 늦게 체크인, 온천</span></li>
-        <li><span class="d">토요일</span><span>골프 (오픈 시점에 남는 시간대 기준), 오후 가족 시간</span></li>
-        <li><span class="d">일요일</span><span>오전 체크아웃, 귀경</span></li>
+    <div class="ob">
+      <ul>
+        <li><span class="d">금</span><span>퇴근 후 출발, 저녁 체크인</span></li>
+        <li><span class="d">토</span><span>골프, 오후 가족 시간</span></li>
+        <li><span class="d">일</span><span>오전 체크아웃</span></li>
       </ul>
-      <div class="pros">
-        <div class="p"><b>좋은 점</b>유일하게 주말이라 수현이 휴가를 안 써도 됨. 단풍 시즌 설악이 제일 예쁠 때. 아빠 출발(11월 13일) 전이라 다섯 명 다 가능.</div>
-        <div class="c"><b>감안할 점</b>지금은 예약이 아예 불가능해서 확정을 못 지어. 주말 그린피가 1인 258,000원으로 평일보다 6만원 비싸고, 오픈런에 실패하면 10월 평일안으로 되돌아와야 하는데 그때는 10월 자리도 더 빠져 있을 수 있음.</div>
-      </div>
+      <div class="v"><b>왜:</b> 유일한 주말안이라 휴가 불필요, 단풍 시즌. <b>단</b> 9월 1일 9시 오픈런 실패하면 그냥 날아감. 그린피도 6만원 비쌈.</div>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="lab">Compare</div>
-  <h2>한눈에 비교</h2>
+  <h2>왜 주말이 없냐면</h2>
   <div class="wrap">
   <table>
-    <tr><th>항목</th><th>A<br>10/12~14</th><th>B<br>10/8~9</th><th>C<br>10/13~15</th><th>D<br>주말</th></tr>
-    <tr><td class="name">박수</td><td>2박</td><td>1박</td><td>2박</td><td>2박</td></tr>
-    <tr><td class="name">지금 예약 가능</td><td class="ok">가능</td><td class="ok">가능</td><td class="ok">가능</td><td class="no">9/1 오픈</td></tr>
-    <tr><td class="name">골프 잔여</td><td class="ok">넉넉</td><td class="ok">넉넉</td><td>적음</td><td>미정</td></tr>
-    <tr><td class="name">수현 휴가</td><td>2일</td><td>1일</td><td>2일</td><td class="ok">불필요</td></tr>
-    <tr><td class="name">그린피 (1인)</td><td>198,000</td><td>198,000</td><td>198,000</td><td>258,000</td></tr>
-    <tr><td class="name">붐빔</td><td class="ok">한산</td><td class="ok">한산</td><td class="ok">한산</td><td>혼잡</td></tr>
+    <tr><th>10/8 목</th><th>10/9 금</th><th>10/10 토</th><th>10/11 일</th><th>10/12 월</th><th>10/13 화</th><th>10/14 수</th><th>10/15 목</th></tr>
+    <tr><td class="ok">14팀</td><td class="no">마감</td><td class="no">마감</td><td class="no">마감</td><td class="ok">17팀</td><td class="ok">12팀</td><td class="ok">6팀</td><td class="no">마감</td></tr>
   </table>
   </div>
-  <div class="note"><p>그린피는 설해원 홈페이지에 공지된 온라인 고객 기준 1인 18홀 요금이야. 객실료는 로그인해야 조회돼서 아직 확인 못 했고, 예약실(033-673-9900)에 전화하면 바로 알려줘.</p></div>
-</section>
-
-<section>
-  <div class="lab">Rooms</div>
-  <h2>객실은 이 중에서</h2>
-  <p class="intro">우리는 어른 넷에 은서까지 다섯이라, 기준 4인 객실이면 은서만 추가 인원으로 걸려. 8세 미만이면 추가요금 없음.</p>
-  <div class="rooms">
-    <div class="room">
-      <h4>설해온천 패밀리 풀 스위트</h4>
-      <div class="m">36평 / 4인 기준</div>
-      <p>객실에 딸린 야외 온천수영장이 있는 타입. 은서 데리고 다니기 제일 편하고, 침실과 거실 문을 열면 한 공간으로 넓게 쓸 수 있어.</p>
-      <div class="spec">온천수 야외풀, 선베드, 트윈 침대, 주방. 골프코스 전망은 층수에 따라 3만원에서 5만원 추가</div>
-    </div>
-    <div class="room">
-      <h4>마운틴스테이 히노끼 스위트</h4>
-      <div class="m">101평에서 116평 / 4인 기준</div>
-      <p>제일 좋은 급. 2층 복층에 기소 히노끼 욕조와 다실, 가든정원이 딸려 있고 설악산과 골프코스가 통창으로 보여. 부모님 모시고 가는 거라면 여기가 제일 무난한 선택.</p>
-      <div class="spec">복층, 침실 2, 욕실 2, 발코니와 가든정원 별도. 스타일러, 네스프레소</div>
-    </div>
-    <div class="room">
-      <h4>골프텔 40평형</h4>
-      <div class="m">40평 / 4인 기준</div>
-      <p>골프장 바로 옆이라 새벽 티오프에 제일 유리해. 침실 2개에 욕실 2개, 더블 조합이나 온돌 조합을 고를 수 있어서 부모님 방 따로 쓰기 좋음.</p>
-      <div class="spec">침실 2, 욕실 2, 거실, 주방. 더블실 / 복합실(더블+온돌) / 트윈실 중 선택</div>
-    </div>
+  <div class="warn">
+    <b>11월은 아직 예약 자체가 안 열림</b>
+    <p>설해원은 객실과 골프 모두 이용일 2개월 전 매월 1일 오전 9시에 열려. 11월분은 9월 1일(화) 오전 9시.</p>
   </div>
+  <div class="note"><p>남은 티타임이 전부 새벽 6시 반대야. 양양 10월 중순 일출이 6시 20분쯤이라 플레이는 되는데 5시 반 기상.</p></div>
 </section>
 
 <section>
-  <div class="lab">Kids</div>
-  <h2>은서가 할 거</h2>
-  <ul>
-    <li>온천 수영장과 노천 스파 (설해원 온천수)</li>
-    <li>키즈존, 보드게임방, 게임존</li>
-    <li>해풍길 산책, 설해랑</li>
-    <li>스크린골프와 골프연습장 (아빠 따라다니기)</li>
-    <li>설해빵집, 편의점, 서재와 레터룸</li>
+  <h2>객실 (참고)</h2>
+  <ul class="plain">
+    <li><b>설해온천 패밀리 풀 스위트</b> 36평, 4인, 객실 딸린 야외 온천수영장. 은서 데리고 제일 편함</li>
+    <li><b>마운틴스테이 히노끼 스위트</b> 101평 복층, 히노끼 욕조와 다실. 제일 좋은 급</li>
+    <li><b>골프텔 40평형</b> 침실 2 욕실 2, 골프장 바로 옆. 부모님 방 따로 쓰기 좋음</li>
   </ul>
-  <div class="note"><p>아기침대는 1채 30,000원이고 침대가드, 가습기, 유아용 식탁의자는 무료 대여야. 다만 수량이 한정이라 예약할 때 같이 말해둬야 해.</p></div>
-</section>
-
-<section>
-  <div class="lab">Rules</div>
-  <h2>미리 알아둘 것</h2>
-  <ul>
-    <li>체크인 오후 3시, 체크아웃 오전 11시. 얼리 체크인은 시간대별로 2만원에서 4만원 추가</li>
-    <li>기준 인원 초과 시 1인당 30,000원이고 침구 1채가 나와. 8세 미만은 추가요금 제외</li>
-    <li>전 객실 취사 금지, 전 구역 금연 (객실이나 발코니 흡연 시 과태료 20만원에 정비료 20만원)</li>
-    <li>반려동물 동반 불가</li>
-    <li>객실 취소는 7일 전 오후 6시까지 무료, 이후로는 객실료의 20퍼센트에서 100퍼센트까지 위약금</li>
-    <li>골프 취소는 주중 3일 전, 주말 4일 전 오후 6시까지 무료</li>
-    <li>온라인 고객은 월 주중 4회, 주말 2회까지만 골프 예약 가능</li>
-  </ul>
+  <div class="note"><p>체크인 15시 / 아웃 11시. 기준 4인 초과 시 1인 3만원인데 은서가 8세 미만이면 무료. 그린피는 1인 18홀 주중 198,000 / 주말 258,000. 객실료는 로그인해야 조회돼서 예약실에 물어봐야 해.</p></div>
 </section>
 
 <section class="ask">
-  <div class="lab">Decide</div>
-  <h2>수현이한테 물어볼 것</h2>
-  <div class="q"><b>1. 어느 안으로 갈까</b><p>A(10/12~14), B(10/8~9), C(10/13~15) 중에 하나를 고르거나, D(주말)를 노려보고 실패하면 A로 가는 방법도 있어.</p></div>
-  <div class="q"><b>2. 객실은</b><p>설해온천 패밀리 풀 스위트(은서 편함), 마운틴스테이 히노끼(제일 좋음), 골프텔 40평(방 2개, 골프 편함) 중에서.</p></div>
-  <div class="q"><b>3. 골프는 몇 번</b><p>1회만 칠지, 2박이면 이틀 다 칠지. 새벽 6시 반 티오프만 남아있는 건 감안해야 해.</p></div>
-  <div class="q"><b>4. 은서 나이 기준</b><p>8세 미만이면 추가 인원 요금이 안 붙어. 예약할 때 같이 얘기해야 함.</p></div>
+  <h2>정해줄 것</h2>
+  <div class="q"><b>1. A · B · C · D 중에</b><p>D는 내일 9시 오픈런이 필요해서 지금 결정해야 해.</p></div>
+  <div class="q"><b>2. 객실</b><p>온천 풀 스위트 / 히노끼 / 골프텔 중에.</p></div>
+  <div class="q"><b>3. 골프 몇 번</b><p>2박이면 하루만 칠지 이틀 다 칠지.</p></div>
 </section>
 
 <footer>
-  <p>골프 잔여타임은 2026년 8월 31일 오전 11시 50분 수집 기준이라, 지금은 더 줄어들었을 수 있어. 객실 잔여는 로그인해야 조회돼서 확인 못 했음.</p>
-  <p style="margin-top:8px">출처: <a href="https://www.seolhaeone.com/mobile/reservation/guide.do" target="_blank">설해원 예약 및 취소 안내</a>, <a href="https://www.seolhaeone.com/mobile/accommodations/guide.do" target="_blank">객실 이용 안내</a>, <a href="https://www.seolhaeone.com/mobile/reservation/golf-day_new.do" target="_blank">골프 실시간 예약</a></p>
-  <p style="margin-top:8px">강원특별자치도 양양군 손양면 공항로 230</p>
+  <p>골프 잔여는 2026년 8월 31일 오전 수집 기준이라 지금은 더 줄었을 수 있어. 출처는 <a href="https://www.seolhaeone.com/mobile/reservation/guide.do" target="_blank">설해원 예약 안내</a>.</p>
   <a class="tel" href="tel:0336739900">예약실 033-673-9900</a>
 </footer>
 
